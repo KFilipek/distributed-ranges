@@ -102,7 +102,7 @@ TEST(CpuMpiTests, distributed_mdarray_basic) {
 
 TEST(CpuMpiTests, distributed_mdarray_local) {
   using T = double;
-
+assert(false);
   using dmatrix = lib::distributed_mdarray<T, dyn_2d>;
   dmatrix dm(rows, cols);
 
